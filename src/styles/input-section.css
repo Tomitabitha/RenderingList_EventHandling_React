@@ -1,0 +1,18 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+input[type="text"] {
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    width: 820px;
+    outline: none;   
+}
+
+input::placeholder {
+    font-style: italic;
+}
