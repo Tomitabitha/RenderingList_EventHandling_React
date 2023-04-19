@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import InputSection from './components/InputSection';
 import ProfileSearch from './components/ProfileSearch';
-import { dataList } from './components/ProfileSearch';
+import { dataList } from './data';
+
 import "../src/styles/App.css"
 function App() { 
   const [userDetails] = useState(dataList)
